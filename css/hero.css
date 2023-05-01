@@ -1,3 +1,5 @@
+/* body styles */
+
 body{
 	margin: 0;
 	font-family: 'Helvetica', 'Arial', sans-serif;
@@ -5,15 +7,13 @@ body{
 	line-height: 30px;
 }
 
+/* header styles */
+
 header{
 	background-color: #d14635;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
-
-h1, h2{
-	font-family: 'Press Start 2P', cursive;
 }
 
 header h1{
@@ -27,6 +27,20 @@ header img{
 	border: 20px solid white;
 }
 
+/* heading styles */
+
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+}
+
+h2{
+	font-size: 30px;
+	color: #e70c19;
+	margin: 40px 0 10px;
+}
+
+/* main styles */
+
 main{
 	max-width: 800px;
 	margin: 0 auto;
@@ -37,11 +51,13 @@ main img{
 	max-width: 100%;
 }
 
-h2{
-	font-size: 30px;
-	color: #e70c19;
-	margin: 40px 0 10px;
+p.caption {
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
 }
+
+/* a styles */
 
 a{
 	color: #e70c19;
@@ -51,6 +67,8 @@ a:hover{
 	color: white;
 	background-color: #483a94;
 }
+
+/* footer styles */
 
 footer{
 	background-color: #d14635;
@@ -70,10 +88,4 @@ footer a{
 footer a:hover {
 	opacity: .5;
 	background-color: transparent;
-}
-
-p.caption {
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
 }
